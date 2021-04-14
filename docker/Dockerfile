@@ -30,7 +30,7 @@ RUN Rscript -e  "install.packages( \
       'rprojroot', \
       'servr', \
       'spelling', \
-      'styler',
+      'styler', \
       'dplyr'))"
 
 # set final workdir for commands
