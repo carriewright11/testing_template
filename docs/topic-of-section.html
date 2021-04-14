@@ -171,16 +171,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Text Text</p>
 <div id="code-examples" class="section level3">
 <h3><span class="header-section-number">2.1.1</span> Code examples</h3>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="topic-of-section.html#cb4-1"></a>output_dir &lt;-<span class="st"> &quot;code_output&quot;</span></span>
-<span id="cb4-2"><a href="topic-of-section.html#cb4-2"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">dir.exists</span>(output_dir)) {</span>
-<span id="cb4-3"><a href="topic-of-section.html#cb4-3"></a>  <span class="kw">dir.create</span>(output_dir)</span>
-<span id="cb4-4"><a href="topic-of-section.html#cb4-4"></a>}</span></code></pre></div>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="topic-of-section.html#cb5-1"></a>iris <span class="op">%&gt;%</span></span>
-<span id="cb5-2"><a href="topic-of-section.html#cb5-2"></a><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(Sepal.Length, Sepal.Width, <span class="dt">color =</span> Species)) <span class="op">+</span></span>
-<span id="cb5-3"><a href="topic-of-section.html#cb5-3"></a><span class="st">  </span><span class="kw">geom_point</span>() <span class="op">+</span></span>
-<span id="cb5-4"><a href="topic-of-section.html#cb5-4"></a><span class="st">  </span><span class="kw">theme_bw</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="topic-of-section.html#cb10-1"></a>output_dir &lt;-<span class="st"> &quot;code_output&quot;</span></span>
+<span id="cb10-2"><a href="topic-of-section.html#cb10-2"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">dir.exists</span>(output_dir)) {</span>
+<span id="cb10-3"><a href="topic-of-section.html#cb10-3"></a>  <span class="kw">dir.create</span>(output_dir)</span>
+<span id="cb10-4"><a href="topic-of-section.html#cb10-4"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="topic-of-section.html#cb11-1"></a>iris <span class="op">%&gt;%</span></span>
+<span id="cb11-2"><a href="topic-of-section.html#cb11-2"></a><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(Sepal.Length, Sepal.Width, <span class="dt">color =</span> Species)) <span class="op">+</span></span>
+<span id="cb11-3"><a href="topic-of-section.html#cb11-3"></a><span class="st">  </span><span class="kw">geom_point</span>() <span class="op">+</span></span>
+<span id="cb11-4"><a href="topic-of-section.html#cb11-4"></a><span class="st">  </span><span class="kw">theme_bw</span>()</span></code></pre></div>
 <p><img src="02-chapter_of_course_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="topic-of-section.html#cb6-1"></a><span class="kw">ggsave</span>(<span class="kw">file.path</span>(output_dir, <span class="st">&quot;test_ggplot2.png&quot;</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="topic-of-section.html#cb12-1"></a><span class="kw">ggsave</span>(<span class="kw">file.path</span>(output_dir, <span class="st">&quot;test_ggplot2.png&quot;</span>))</span></code></pre></div>
 <pre><code>## Saving 7 x 5 in image</code></pre>
 </div>
 <div id="image-examples" class="section level3">
@@ -203,7 +203,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="print-out-session-info" class="section level2">
 <h2><span class="header-section-number">2.2</span> Print out session info</h2>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="topic-of-section.html#cb8-1"></a>devtools<span class="op">::</span><span class="kw">session_info</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="topic-of-section.html#cb14-1"></a>devtools<span class="op">::</span><span class="kw">session_info</span>()</span></code></pre></div>
 <pre><code>## ─ Session info ───────────────────────────────────────────────────────────────
 ##  setting  value                       
 ##  version  R version 4.0.3 (2020-10-10)
