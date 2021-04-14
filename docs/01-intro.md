@@ -6,11 +6,10 @@ output: html_document
 # Introduction 
 
 ## Motivation
-This course will cover 
+This course will cover interesting topics.
 
 **Target Audience:**  
-The course is intended for 
+The course is intended for interesting people interested in interesting topics.
 
 **Curriculum:**  
-This course will feature 
-The curriculum will also cover 
+The curriculum will cover guidelines of ITN and other words that it might think are misspelled like Informatics or genomic or TCGA or TCIA.
