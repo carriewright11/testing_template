@@ -16,7 +16,7 @@ The curriculum will cover guidelines of ITN and other words that it might think 
 
 
 ```r
-#adding some test code to style
+# adding some test code to style
 library(tidyverse)
 ```
 
@@ -38,9 +38,10 @@ library(tidyverse)
 ```
 
 ```r
-mtcars %>%select(mpg , cyl) %>%
-  filter(cyl>4) %>%
-    head()
+mtcars %>%
+  select(mpg, cyl) %>%
+  filter(cyl > 4) %>%
+  head()
 ```
 
 ```
