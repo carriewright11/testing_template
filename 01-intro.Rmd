@@ -9,7 +9,7 @@ output: html_document
 This course will cover interesting topics.
 
 **Target Audience:**  
-The course is intended for 
+The course is intended for interesting people interested in interesting topics.
 
 **Curriculum:**  
 The curriculum will cover
