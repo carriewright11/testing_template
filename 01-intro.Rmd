@@ -6,7 +6,7 @@ output: html_document
 # Introduction 
 
 ## Motivation
-This course will cover 
+This course will cover interesting topics.
 
 **Target Audience:**  
 The course is intended for 
