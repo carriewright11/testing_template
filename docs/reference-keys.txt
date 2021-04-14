@@ -1,5 +1,11 @@
 introduction
 motivation
-topic-of-course
+learning-objectives
+libraries
+topic-of-section
 subtopic
-subtopic-of-subtopic
+code-examples
+image-examples
+video-example
+citation-examples
+print-out-session-info
